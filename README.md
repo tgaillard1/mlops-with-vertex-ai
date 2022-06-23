@@ -21,6 +21,8 @@ This example implements the end-to-end [MLOps process](https://services.google.c
     ```
     pip install tfx==1.2.0 --user
     pip install -r requirements.txt
+    pip3 install google-cloud-aiplatform --upgrade
+    !pip install tensorflow-io
     ```
     ---
     **NOTE**: You can ignore the pip dependencies issues. These will be fixed when upgrading to subsequent TFX version.
