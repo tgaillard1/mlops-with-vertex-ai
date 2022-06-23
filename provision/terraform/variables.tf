@@ -42,7 +42,7 @@ variable "machine_type" {
 variable "network_name" {
   description = "The network name for the Notebook instance"
   type        = string
-  default     = "default"
+  default     = "general"
 }
 
 variable "subnet_name" {
